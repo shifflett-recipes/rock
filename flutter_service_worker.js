@@ -24,7 +24,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c86551332f5674dcb95f7d7915b2fc4c
 "canvaskit/skwasm.js.symbols": "e72c79950c8a8483d826a7f0560573a1",
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "55854ea9634c692d8e550fba5434544f",
+"flutter_bootstrap.js": "fce5dda0e08a51972d702fced6f5afed",
 "icons/android-chrome-192x192.png": "6fc5c4f9a86cf1b6acac6ae39992dde9",
 "icons/android-chrome-512x512.png": "0a18d9536e499f647b4ca5418749d436",
 "icons/apple-touch-icon.png": "7904db86c6e36595616d8ac169147e6a",
@@ -36,11 +36,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "c86551332f5674dcb95f7d7915b2fc4c
 "icons/Icon-maskable-192.png": "27efaf99f6d90deab2611d12baff8ab1",
 "icons/Icon-maskable-512.png": "391ec4281b534648488c4dc3659ac528",
 "icons/site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
-"index.html": "513b5b817bc576d5afa5acef83567c44",
-"/": "513b5b817bc576d5afa5acef83567c44",
+"index.html": "7f24fcbe572033955874f9981366be6f",
+"/": "7f24fcbe572033955874f9981366be6f",
 "main.dart.js": "6e9355242882bfabaa519b199d471fb6",
 "manifest.json": "723bf662e529c65d1929e80ca393906c",
-"version.json": "c0e53669354dce5ba27745eef2f51c93"};
+"version.json": "46fff04c70112602950b62f967f1b432"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
