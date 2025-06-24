@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Collection of recipes fromm the Shifflett Family Cookbook." />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Shifflett Family Recipes" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="manifest" href="manifest.json" />
+    <title>Shifflett Family Recipes</title>
+    <style>
+      .loading-text {
+        color: #454545;
+        font-weight: 600;
+        font-size: 24px;
+        margin: 24px;
+      }
+
+      .loading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      body{
+        background-color: #9F9D9D;
+      }
+    </style>    
+
+</head>
+  <body>
+    <div class="loading"
+      id="loading">
+      <span id="loadingtext" class="loading-text">Loading...</span>
+    </div>    
+    <script src="flutter_bootstrap.js?v=11" async></script>
+  </body>
+</html>
